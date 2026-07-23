@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Web Developer | WordPress, Shopify & Performance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200 antialiased">
+
+    <header class="fixed w-full z-50 transition-all duration-300 py-4 px-6" id="main-header">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center glass rounded-full px-6 py-3">
+            <div class="text-xl font-bold tracking-tighter uppercase">Dev<span class="text-indigo-500">Portfolio</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#services" class="hover:text-indigo-400 transition">Services</a>
+                <a href="#portfolio" class="hover:text-indigo-400 transition">Work</a>
+                <a href="#why-me" class="hover:text-indigo-400 transition">Why Me</a>
+            </div>
+            <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition shadow-lg shadow-indigo-500/20">
+                Book a Call
+            </a>
+        </nav>
+    </header>
+
+    <a href="https://wa.me/yournumber" class="fixed bottom-8 right-8 z-50 bg-green-500 p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95">
+        <i data-lucide="message-circle" class="text-white w-6 h-6"></i>
+    </a>
+
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 px-6 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10">
+            <div class="absolute top-20 left-1/4 w-72 h-72 bg-indigo-600/20 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-20 right-1/4 w-72 h-72 bg-purple-600/20 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <span class="inline-block px-4 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-6">Available for Projects</span>
+            <h1 class="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6">
+                I build websites that <span class="gradient-text">convert visitors</span> into customers.
+            </h1>
+            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
+                Specializing in high-performance WordPress & Shopify stores designed to scale your business and outpace your competition.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-bold text-lg transition-all shadow-xl shadow-indigo-500/20">
+                    Get My Free Strategy Call
+                </a>
+                <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 glass hover:bg-white/5 text-white rounded-xl font-bold text-lg transition-all">
+                    View My Work
+                </a>
+            </div>
+            <div class="mt-16 pt-8 border-t border-slate-800 flex flex-wrap justify-center gap-8 opacity-50 grayscale">
+                <span class="font-bold text-xl">Shopify</span>
+                <span class="font-bold text-xl">WordPress</span>
+                <span class="font-bold text-xl">WooCommerce</span>
+                <span class="font-bold text-xl">Next.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-slate-900/50" id="about">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="reveal">
+                <h2 class="text-3xl font-bold text-white mb-6">Your Technical Partner in <br/><span class="text-indigo-400">Digital Growth</span></h2>
+                <p class="text-slate-400 mb-6 text-lg leading-relaxed">
+                    I don't just write code; I build revenue-generating assets. With over 6 years of experience across Shopify and WordPress, I bridge the gap between complex engineering and user-centric design.
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="text-2xl font-bold text-white">150+</h4>
+                        <p class="text-sm text-slate-500 uppercase tracking-wide">Projects Delivered</p>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-white">40%</h4>
+                        <p class="text-sm text-slate-500 uppercase tracking-wide">Avg. Speed Boost</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative reveal">
+                <div class="aspect-square glass rounded-3xl p-8 flex flex-col justify-center items-center text-center">
+                    <i data-lucide="code-2" class="w-16 h-16 text-indigo-500 mb-4"></i>
+                    <p class="italic text-slate-300 leading-relaxed text-lg">
+                        "I focus on the technical heavy-lifting so you can focus on running your business. My goal is to make your website your hardest-working employee."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16 reveal">
+            <h2 class="text-4xl font-bold text-white mb-4">Core Expertise</h2>
+            <p class="text-slate-400">Tailored solutions for modern eCommerce and Brands.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-8 rounded-3xl glass hover:bg-indigo-600/5 transition group reveal">
+                <i data-lucide="layout" class="w-10 h-10 text-indigo-500 mb-6 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold text-white mb-3">WordPress Dev</h3>
+                <p class="text-slate-400 text-sm">Custom themes and plugins that are easy to manage and impossible to break.</p>
+            </div>
+            <div class="p-8 rounded-3xl glass hover:bg-indigo-600/5 transition group reveal">
+                <i data-lucide="shopping-cart" class="w-10 h-10 text-indigo-500 mb-6 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold text-white mb-3">Shopify Stores</h3>
+                <p class="text-slate-400 text-sm">High-conversion Shopify setups designed to maximize Average Order Value (AOV).</p>
+            </div>
+            <div class="p-8 rounded-3xl glass hover:bg-indigo-600/5 transition group reveal">
+                <i data-lucide="zap" class="w-10 h-10 text-indigo-500 mb-6 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold text-white mb-3">Speed Optimization</h3>
+                <p class="text-slate-400 text-sm">Boringly fast load times that boost your Google rankings and keep users engaged.</p>
+            </div>
+            <div class="p-8 rounded-3xl glass hover:bg-indigo-600/5 transition group reveal">
+                <i data-lucide="smartphone" class="w-10 h-10 text-indigo-500 mb-6 group-hover:scale-110 transition"></i>
+                <h3 class="text-xl font-bold text-white mb-3">UI/UX Design</h3>
+                <p class="text-slate-400 text-sm">Modern, mobile-first designs that make your brand look like a market leader.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 px-6 bg-slate-900/30">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-white mb-12 reveal">Selected Work</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group reveal">
+                    <div class="overflow-hidden rounded-3xl mb-4 aspect-video bg-slate-800 relative">
+                        <div class="absolute inset-0 bg-indigo-600/20 group-hover:opacity-0 transition"></div>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Luxe Interior Shopify Store</h3>
+                    <p class="text-indigo-400 text-sm font-semibold mb-2">+120% Conversion Rate Increase</p>
+                    <p class="text-slate-400">Complete redesign and speed optimization for a luxury furniture brand.</p>
+                </div>
+                <div class="group reveal">
+                    <div class="overflow-hidden rounded-3xl mb-4 aspect-video bg-slate-800 relative">
+                        <div class="absolute inset-0 bg-indigo-600/20 group-hover:opacity-0 transition"></div>
+                        <img src="https://images.unsplash.com/photo-1551288049-bbb652166c48?auto=format&fit=crop&q=80&w=1000" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">SaaS Corporate Site</h3>
+                    <p class="text-indigo-400 text-sm font-semibold mb-2">99/100 PageSpeed Score</p>
+                    <p class="text-slate-400">A custom WordPress build focused on lead generation for a Fintech startup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-me" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto glass p-12 rounded-[3rem] reveal">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">Why Businesses Work With Me</h2>
+            <div class="grid sm:grid-cols-2 gap-8">
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle" class="text-green-500 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-bold text-white">SEO-First Code</h4>
+                        <p class="text-slate-400 text-sm">Clean semantic HTML so search engines love your site.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle" class="text-green-500 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Fast Communication</h4>
+                        <p class="text-slate-400 text-sm">I use Slack/WhatsApp for real-time project updates.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle" class="text-green-500 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Conversion Focused</h4>
+                        <p class="text-slate-400 text-sm">Every element is placed to guide users toward the checkout.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <i data-lucide="check-circle" class="text-green-500 flex-shrink-0"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Ongoing Support</h4>
+                        <p class="text-slate-400 text-sm">I don't just disappear after the site goes live.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 glass rounded-3xl reveal">
+                <div class="flex text-yellow-500 mb-4"><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i></div>
+                <p class="text-slate-300 italic mb-6">"He didn't just build a shop; he built a sales machine. Our revenue increased by 30% in the first month."</p>
+                <p class="text-white font-bold">— Sarah J., Ecom Founder</p>
+            </div>
+            <div class="p-8 glass rounded-3xl reveal">
+                <div class="flex text-yellow-500 mb-4"><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i></div>
+                <p class="text-slate-300 italic mb-6">"Expert knowledge of WordPress. Our site is now lightning fast and mobile scores are perfect."</p>
+                <p class="text-white font-bold">— Mike R., Tech Solutions</p>
+            </div>
+            <div class="p-8 glass rounded-3xl reveal">
+                <div class="flex text-yellow-500 mb-4"><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i><i data-lucide="star" class="w-4 h-4 fill-current"></i></div>
+                <p class="text-slate-300 italic mb-6">"Extremely professional and easy to work with. He understands the business side of dev."</p>
+                <p class="text-white font-bold">— Alex P., Small Business Owner</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 text-center reveal">
+        <div class="max-w-3xl mx-auto py-16 px-8 bg-indigo-600 rounded-[3rem] shadow-2xl shadow-indigo-500/30">
+            <h2 class="text-4xl font-bold text-white mb-6">Let’s Build Your Website That Actually Sells</h2>
+            <p class="text-indigo-100 text-lg mb-10">Stop losing customers to slow, outdated websites. Let's talk about your project today.</p>
+            <a href="#contact" class="inline-block bg-white text-indigo-600 px-10 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform">
+                Start My Project
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16">
+            <div class="reveal">
+                <h2 class="text-4xl font-bold text-white mb-6">Get In Touch</h2>
+                <p class="text-slate-400 mb-8 text-lg">Have a project in mind? Fill out the form or reach out directly via WhatsApp for a faster response.</p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-slate-300">
+                        <i data-lucide="mail" class="text-indigo-500"></i>
+                        <span>hello@yourdevdomain.com</span>
+                    </div>
+                    <div class="flex items-center gap-4 text-slate-300">
+                        <i data-lucide="phone" class="text-indigo-500"></i>
+                        <span>+1 (234) 567 890</span>
+                    </div>
+                </div>
+            </div>
+            <form class="glass p-8 rounded-3xl space-y-6 reveal">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Name</label>
+                    <input type="text" placeholder="John Doe" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-2">Email</label>
+                    <input type="email" placeholder="john@example.com" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-2">Message</label>
+                    <textarea rows="4" placeholder="Tell me about your project..." class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-indigo-500 transition"></textarea>
+                </div>
+                <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 rounded-xl transition">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 px-6 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <div class="flex justify-center space-x-6 mb-6 text-slate-300">
+            <a href="#" class="hover:text-indigo-500"><i data-lucide="github"></i></a>
+            <a href="#" class="hover:text-indigo-500"><i data-lucide="twitter"></i></a>
+            <a href="#" class="hover:text-indigo-500"><i data-lucide="linkedin"></i></a>
+        </div>
+        <p>© 2026 Your Name Development. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Header Background on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2', 'backdrop-blur-md');
+            } else {
+                header.classList.remove('py-2', 'backdrop-blur-md');
+            }
+        });
+
+        // Scroll Reveal Animation
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>s
